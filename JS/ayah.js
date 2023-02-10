@@ -180,7 +180,7 @@ let mySetting = document.querySelector(".setting-box");
 
 document.addEventListener('click', (e) => {
   if (e.target !== mySetting) {
-    mySetting.classList.toggle("open")
+    mySetting.classList.remove("open")
   }
   if (mySetting.classList.contains("open")) {
     return false;
